@@ -148,6 +148,8 @@ public class telaConexaoBanco extends javax.swing.JFrame {
                 .addGap(32, 32, 32))
         );
 
+        jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+
         btnSair.setText("Sair");
 
         btnSalvar.setText("Salvar");
@@ -165,12 +167,9 @@ public class telaConexaoBanco extends javax.swing.JFrame {
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnSalvar)
-                    .addComponent(btnSair))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addComponent(btnSalvar)
+                .addComponent(btnSair))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
