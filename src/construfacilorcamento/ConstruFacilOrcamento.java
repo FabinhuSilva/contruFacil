@@ -12,7 +12,9 @@ public class ConstruFacilOrcamento {
         // TODO code application logic here
         
         conexaoBancoPostgresql lendo = new conexaoBancoPostgresql();
+        lendo.encontrarArquivotxt();
         lendo.lerArquivotxt(true);
+        lendo.compararChave("chave12");
         
     }
     
